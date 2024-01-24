@@ -1,0 +1,53 @@
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.piscar {
+    animation: blink 1.5s infinite;
+}
+.listagemFilmes{
+    max-width: 500px;
+    margin:14px auto;
+    display:block;
+}
+
+.listagemFilmes strong{
+   display: block;
+   margin-bottom: 14px;
+   text-align: 15px;
+   font-size: 22px;
+
+}
+.listagemFilmes article {
+    background-color: #ececec;
+    width:100%;
+    padding: 20px ;
+    border-radius: 4px;
+    
+}
+
+.listagemFilmes img {
+    width: 100%;
+    max-height: 90vh;
+
+}
+.listagemFilmes a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: beige;
+    border-radius: 10px;
+    border-style: double;
+
+}
+
+.loading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}

@@ -1,0 +1,16 @@
+.error{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 100px);
+    flex-direction: column;
+}
+
+.error a {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+}

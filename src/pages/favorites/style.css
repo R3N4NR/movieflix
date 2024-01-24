@@ -1,0 +1,69 @@
+.emptyList {
+    color: #2f2f2f;
+    width: 100%;
+    text-align: center;
+}
+
+
+.favorites{
+    margin:14px auto;
+    display:block;
+    
+}
+.favorites h1 {
+    margin: 20px auto;
+    
+    height: 80px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.favorites ul{
+    width: 80%;
+    height: 500px;
+    
+    margin: 20px 20px;
+    
+
+}
+.favorites li{
+    margin: 50px 50px;
+    height: 200px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.favorites img{
+    width: 140px;
+    height: 160px;
+    
+}
+.favorites span{
+    margin: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+    
+}
+
+.favorites a {
+    color: black;
+    font-weight: bold;
+}
+
+button{
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+

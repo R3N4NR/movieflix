@@ -1,0 +1,45 @@
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-2px); }
+    50% { transform: translateX(2px); }
+    75% { transform: translateX(-2px); }
+    100% { transform: translateX(2px); }
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fcc252;
+ 
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+a{
+    text-decoration: none ;
+    
+}
+
+.logo{
+    color: #7e1616;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+
+
+.logo:hover{
+    font-size: 45px;
+    transition: 0.3s;
+    animation: shake 0.5s;
+}
+
+.favorites{
+    margin-right: 20px ;
+    color: #000;
+}
